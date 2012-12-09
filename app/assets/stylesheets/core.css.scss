@@ -1,0 +1,10 @@
+body { background-color: #CCC !important; }
+.main {   
+  background-color: white; margin:auto; width:990px; padding: 10px; margin-top: 10px; overflow: auto;
+  h1 { color: #0B610B !important; }
+  img.item-img { 
+    width: 60px; height: 60px; float: left; margin-right: 10px; margin-bottom: 10px;
+    div { display: inline; float:left; }
+  }	
+  dt, dd { clear: both !important; margin-bottom: 10px; }
+}
