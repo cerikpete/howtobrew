@@ -20,6 +20,10 @@ Howtobrew::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  # Google Analytics
+  config.gem 'rack-google-analytics', :lib => 'rack/google-analytics'
+  config.middleware.use Rack::GoogleAnalytics, :tracker => 'UA-36918558-1'
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 

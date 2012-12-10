@@ -7,7 +7,7 @@ gem 'rails', '3.2.1'
 
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
-
+gem 'rack-google-analytics', :require => 'rack/google-analytics'
 
 # Gems used only for assets and not required
 # in production environments by default.
