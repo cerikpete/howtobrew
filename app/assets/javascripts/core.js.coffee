@@ -2,5 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
-window.setNav('home')
+setNav = (id) ->
+  $('ul.nav > li').removeClass('active');
+  $('ul.nav > li#' + id).addClass('active');
 

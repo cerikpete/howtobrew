@@ -8,6 +8,15 @@
 </head>
 <body>
 
+<div class="navbar">
+ <div class="navbar-inner">
+  <ul class="nav">
+    <li id="home"><a href="<%= url_for(:action => 'index', :controller => 'home') %>">Home</a></li>
+    <li id="equipment"><a href="<%= url_for(:action => 'index', :controller => 'equipment') %>">Equipment</a></li>
+  </ul>
+ </div>
+</div>
+
 <div class="main">
   <%= yield %>
 </div>
