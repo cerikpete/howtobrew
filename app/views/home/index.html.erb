@@ -1,12 +1,12 @@
 <% title "How to Brew" %>
 
-<h1>How to Brew</h1>
-<p>Welcome to How to Brew, the site dedicated to getting you started on the path to home brewing.</p>
 
-<div class="hero-unit">
-<h2>Beginners Guide to Equipment<h2>
-<p>Got your brewers starters kit?  Curious as to what a carboy is?  Wondering about how to cork bottles?  What's the difference between a primary and secondary fermenter?  Find answers to your questions here, the quick guide to your first set of home brewing equipment.</p>
-<p>
-  <a class="btn btn-primary btn-large" href="<%= url_for 'equipment' %>">Read More</a>
-</p>
+<div class="hero-unit"><h1>How to Brew</h1>
+<p>Welcome to How to Brew, the site dedicated to getting you started on the path to home brewing.</p>
+</div>
+
+<div>
+  <h2>Equipment</h2>
+  <p>The following is a list of the equipment you'll need to get started in home brewing.  They can be purchased as a starter kit from your local homebrewing store.</p>
+  <p><a href="<%= url_for(:action => 'index', :controller => 'equipment') %>" class="btn btn-primary btn-small">Read more</a></p>	
 </div>
