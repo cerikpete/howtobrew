@@ -2,7 +2,6 @@ Howtobrew::Application.routes.draw do
   get "home/index"
   
   root :to => 'home#index'
-  match 'equipment' => 'equipment#index'
   match 'article/:viewName' => 'article#index'
 
   # The priority is based upon order of creation:
